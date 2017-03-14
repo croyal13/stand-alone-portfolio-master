@@ -18,6 +18,12 @@ figure img {
     
 }
 
+.Title_1 {
+    text-align: center;
+    width: 310px;
+    
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -80,6 +86,10 @@ MEDIA QUERIES
     .gallery {
         justify-content: center;
         padding-left: 200px;
+    }
+    
+    .Title_1 {
+        justify-content: center;
     }
 
 }
