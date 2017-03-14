@@ -1,13 +1,17 @@
 /********************
 YOUR STYLES
 *******************/
-
+h1 {
+    text-align: center
+}
 
 /* Header */
 header {
   display: flex;
   justify-content: center;
 }
+
+
 
 /* Main Container */
 
@@ -40,6 +44,7 @@ figure img {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
+    margin: auto;
 }
 
 figure {
@@ -50,6 +55,7 @@ figure {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+ 
 }
 
 figcaption {
@@ -62,6 +68,10 @@ figcaption {
 
 .lg-image {
     box-shadow: 0 0 30px white;
+}
+
+.all { 
+    background: gray;
 }
 
 /* Captions */
@@ -79,11 +89,15 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: gray;
+       background: white;
   }
+    
+
+   
+
     .gallery {
         justify-content: center;
-        padding-left: 130px;
+    
     }
   .Title_1 {
         background: #000;
@@ -100,6 +114,7 @@ MEDIA QUERIES
         justify-content: center;
         color: white;
     }
+    
 }
 
 /* Tablet:  768px = 160em */
@@ -107,12 +122,13 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: gray;
+       background: white;
   }
     
-    .gallery {
+    
+   .gallery {
         justify-content: center;
-        padding-left: 200px;
+       
     }
     
     .Title_1 {
@@ -131,7 +147,7 @@ MEDIA QUERIES
         background: #000;
         justify-content: center;
         color: white;
-    }
+    } 
 }
 
 /* Desktop: 1280px = 80em */
@@ -139,11 +155,14 @@ MEDIA QUERIES
   
   /* Diagnostic Styling. */
   body {
-       background: gray;
+       background: white;
   }
+    
+    
+
    .gallery {
         justify-content: center;
-        padding-left: 370px;
+       
     }
     .Title_1 {
         background: #000;
@@ -161,6 +180,6 @@ MEDIA QUERIES
         background: #000;
         justify-content: center;
         color: white;
-    }
+    } 
 
 }
